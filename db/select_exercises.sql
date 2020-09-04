@@ -5,7 +5,7 @@ USE codeup_test_db;
 
  */
 
- SELECT 'All albums by Pink FLoyd' AS 'Info';
+ SELECT 'All albums by Pink Floyd' AS 'Info';
  SELECT name FROM albums WHERE artist = 'Pink Floyd';
 
  SELECT 'The year Sgt. Pepper''s Lonely Hearts Club Band was released' AS 'Info';
