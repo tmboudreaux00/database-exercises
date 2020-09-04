@@ -1,10 +1,5 @@
 USE codeup_test_db;
 
-/*
-. Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?
-
- */
-
  SELECT 'All albums by Pink Floyd' AS 'Info';
  SELECT name FROM albums WHERE artist = 'Pink Floyd';
 
